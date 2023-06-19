@@ -9,6 +9,7 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Sockets;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
@@ -25,6 +26,9 @@ namespace TCP_Server
         //************ Get key from Cloud Key Management ***********//
 
         private const string SECRECT_KEY = "OyjvQSvOKN4AxXDSwDISpwfJH416SSZS";
+        private byte[] key = Convert.FromBase64String("N/zUxdGCNZPq6d8E7VGu4awmX06vafrWFwZq1vP6ccY=");
+        private byte[] iv = Convert.FromBase64String("IIaHKQYNn33SqrHn2tyKQQ==");
+        AesCryptoServiceProvider aes;
 
         //**********************************************************//
 
@@ -274,8 +278,10 @@ namespace TCP_Server
             if (DB["username"].ContainsKey(Object["username"]) == true)
             {
                 // user already exists
+                string message = "{\"action\":\"register\", \"status\":\"error\", \"info\":\"Username already exists !\"}";
+                string responsee = encryptedData(message);
 
-                byte[] sendData = Encoding.UTF8.GetBytes("{\"action\":\"register\", \"status\":\"error\", \"info\":\"Username already exists !\"}");
+                byte[] sendData = Encoding.UTF8.GetBytes(responsee);
                 current.BeginSend(sendData, 0, sendData.Length, SocketFlags.None, new AsyncCallback(sendCallback), current);
             }
             else
@@ -294,7 +300,9 @@ namespace TCP_Server
                 string clientPort = ((IPEndPoint)current.RemoteEndPoint).Port.ToString();
 
                 // send response
-                byte[] sendData = Encoding.UTF8.GetBytes("{\"action\":\"register\", \"status\":\"success\"}");
+                string message = "{\"action\":\"register\", \"status\":\"success\"}";
+                string response = encryptedData(message);
+                byte[] sendData = Encoding.UTF8.GetBytes(response);
 
                 current.BeginSend(sendData, 0, sendData.Length, SocketFlags.None, new AsyncCallback(sendCallback), current);
                 tcpInvoke("Client IP: " + clientIP + " - Port: " + clientPort + " signed up - " + "Username: " + Object["username"] + "\n", rtbServerLog);
@@ -346,22 +354,28 @@ namespace TCP_Server
                         string clientPort = ((IPEndPoint)current.RemoteEndPoint).Port.ToString();
 
                         // send response
+                        string message = "{\"action\":\"login\", \"status\":\"success\", \"username\":\"" + Object["username"] + "\", \"session\":\"" + authToken + "\", \"id\":\"" + id + "\"}";
+                        string respone = encryptedData(message);
 
-                        byte[] sendData = Encoding.UTF8.GetBytes("{\"action\":\"login\", \"status\":\"success\", \"username\":\"" + Object["username"] + "\", \"session\":\"" + authToken + "\", \"id\":\"" + id + "\"}");
+                        byte[] sendData = Encoding.UTF8.GetBytes(respone);
                         current.BeginSend(sendData, 0, sendData.Length, SocketFlags.None, new AsyncCallback(sendCallback), current);
 
                         tcpInvoke("Client IP: " + clientIP + " - Port: " + clientPort + " has logged in - " + "Username: " + Object["username"] + "\n", rtbServerLog);
                     }
                     else
                     {
-                        byte[] sendData = Encoding.UTF8.GetBytes("{\"action\":\"login\", \"status\":\"error\", \"info\":\"Wrong username or password !\"}");
+                        string message = "{\"action\":\"login\", \"status\":\"error\", \"info\":\"Wrong username or password !\"}";
+                        string respone = encryptedData(message);
+                        byte[] sendData = Encoding.UTF8.GetBytes(respone);
                         current.BeginSend(sendData, 0, sendData.Length, SocketFlags.None, new AsyncCallback(sendCallback), current);
                     }
                 }
                 // if login in real-time now ==> notification 
                 else
                 {
-                    byte[] sendData = Encoding.UTF8.GetBytes("{\"action\":\"login\", \"status\":\"error\", \"info\":\"Your account has already logged in!\"}");
+                    string message = "{\"action\":\"login\", \"status\":\"error\", \"info\":\"Your account has already logged in!\"}";
+                    string respone = encryptedData(message);
+                    byte[] sendData = Encoding.UTF8.GetBytes(respone);
                     current.BeginSend(sendData, 0, sendData.Length, SocketFlags.None, new AsyncCallback(sendCallback), current);
                 }
 
@@ -369,7 +383,9 @@ namespace TCP_Server
             // no username in data base (non-existent)
             else
             {
-                byte[] sendData = Encoding.UTF8.GetBytes("{\"action\":\"login\", \"status\":\"error\", \"info\":\"Username does not exist! Please register an account !\"}");
+                string message = "{\"action\":\"login\", \"status\":\"error\", \"info\":\"Username does not exist! Please register an account !\"}";
+                string respone = encryptedData(message);
+                byte[] sendData = Encoding.UTF8.GetBytes(respone);
                 current.BeginSend(sendData, 0, sendData.Length, SocketFlags.None, new AsyncCallback(sendCallback), current);
             }
         }
@@ -393,7 +409,9 @@ namespace TCP_Server
 
                 File.WriteAllText(PATH_ACCOUNT, jsonstr);
 
-                byte[] sendData = Encoding.UTF8.GetBytes("{\"action\":\"logout\", \"status\":\"success\"}");
+                string message = "{\"action\":\"logout\", \"status\":\"success\"}";
+                string respone = encryptedData(message);
+                byte[] sendData = Encoding.UTF8.GetBytes(respone);
                 current.BeginSend(sendData, 0, sendData.Length, SocketFlags.None, new AsyncCallback(sendCallback), current);
 
                 tcpInvoke("Client IP: " + clientIP + " - Port: " + clientPort + " logged out - " + "Username: " + Object["username"] + "\n", rtbServerLog);
@@ -408,7 +426,10 @@ namespace TCP_Server
 
             fetchOption(ref type, ref product, ref brand);
 
-            string response = "{\"action\":\"option\", \"type\":\"" + type + "\", \"product\":\"" + product + "\", \"brand\":\"" + brand + "\"}";
+            string message = "{\"action\":\"option\", \"type\":\"" + type + "\", \"product\":\"" + product + "\", \"brand\":\"" + brand + "\"}";
+
+            string response = encryptedData(message);
+
             byte[] sendData = Encoding.UTF8.GetBytes(response);
 
             // send data to client
@@ -428,7 +449,8 @@ namespace TCP_Server
 
             string data = search(Object["date"], Object["type"], Object["product"], Object["brand"]);
 
-            string response = "{\"action\":\"search\",\"value\":" + data + "}";
+            string message = "{\"action\":\"search\",\"value\":" + data + "}";
+            string response = encryptedData(message);
             byte[] sendData = Encoding.UTF8.GetBytes(response);
 
             current.BeginSend(sendData, 0, sendData.Length, SocketFlags.None, new AsyncCallback(sendCallback), current);
@@ -715,7 +737,9 @@ namespace TCP_Server
                 timer.Stop();
                 timer.Tick -= Timer_Tick;
 
-                byte[] sendData_client = Encoding.UTF8.GetBytes("{\"action\":\"server-closed\",\"info\":\"Server was closed !\"}");
+                string message = "{\"action\":\"server-closed\",\"info\":\"Server was closed !\"}";
+                string response = encryptedData(message);
+                byte[] sendData_client = Encoding.UTF8.GetBytes(response);
 
                 foreach (Socket socket in listClients)
                 {
@@ -756,6 +780,38 @@ namespace TCP_Server
             }
         }
 
+        // *************** Encrypt and Decrypt data  ***********************//
+        private string encryptedData(string message)
+        {
+            byte[] inputBytes = Encoding.UTF8.GetBytes(message);
+
+            // Encrypt the data
+            byte[] encryptedBytes;
+            using (ICryptoTransform encryptor = aes.CreateEncryptor())
+            {
+                encryptedBytes = encryptor.TransformFinalBlock(inputBytes, 0, inputBytes.Length);
+            }
+
+            string res = Convert.ToBase64String(encryptedBytes);
+            return res;
+        }
+
+        private string decryptedData(string cipher)
+        {
+            byte[] encryptedBytes = Convert.FromBase64String(cipher);
+            // Decrypt the data
+            byte[] decryptedBytes;
+            using (ICryptoTransform decryptor = aes.CreateDecryptor())
+            {
+                decryptedBytes = decryptor.TransformFinalBlock(encryptedBytes, 0, encryptedBytes.Length);
+            }
+
+            // Convert decrypted bytes to string
+            string res = Encoding.UTF8.GetString(decryptedBytes);
+
+            return res;
+        }
+
 
         // *************** Public method ***********************//
         public TCPserver(string ipAddress, int port, int len_buffer, RichTextBox obj, RichTextBox obj2, int len = NUM_OF_BYTES)
@@ -766,10 +822,16 @@ namespace TCP_Server
             this.buffer = new byte[len_buffer];
             this.rtbServerLog = obj;
             this.rtbClientStatus = obj2;
+
+            aes = new AesCryptoServiceProvider();
+            aes.Key = key;
+            aes.IV = iv;
         }
 
         public bool canRun()
         {
+
+
             listClients = new List<Socket>();
             ListenSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 

@@ -278,7 +278,7 @@ namespace TCPClient
             this.DataTable.Location = new System.Drawing.Point(12, 331);
             this.DataTable.Margin = new System.Windows.Forms.Padding(4);
             this.DataTable.Name = "DataTable";
-            this.DataTable.Size = new System.Drawing.Size(1508, 628);
+            this.DataTable.Size = new System.Drawing.Size(1508, 711);
             this.DataTable.TabIndex = 5;
             this.DataTable.UseCompatibleStateImageBehavior = false;
             this.DataTable.View = System.Windows.Forms.View.Details;
@@ -322,7 +322,7 @@ namespace TCPClient
             // pictureBox4
             // 
             this.pictureBox4.Image = global::TCPClient.Properties.Resources.icon_app;
-            this.pictureBox4.Location = new System.Drawing.Point(985, 12);
+            this.pictureBox4.Location = new System.Drawing.Point(98, 12);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(171, 84);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -345,7 +345,7 @@ namespace TCPClient
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(1527, 972);
+            this.ClientSize = new System.Drawing.Size(1527, 1055);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);

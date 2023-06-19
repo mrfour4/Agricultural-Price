@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
+using System.Security.Cryptography;
 using System.Text;
 using System.Windows.Forms;
 
@@ -16,6 +17,10 @@ namespace TCPClient
         // Constant
 
         private const int NUM_OF_BYTES = 10485760; // 10 MB
+
+        private byte[] key = Convert.FromBase64String("N/zUxdGCNZPq6d8E7VGu4awmX06vafrWFwZq1vP6ccY=");
+        private byte[] iv = Convert.FromBase64String("IIaHKQYNn33SqrHn2tyKQQ==");
+        private AesCryptoServiceProvider aes;
 
         private const string ACTION_REGISTER = "register";
         private const string ACTION_LOGIN = "login";
@@ -195,8 +200,10 @@ namespace TCPClient
                 Array.Copy(responds, data, received);
 
                 // get response from server
-                string json = Encoding.UTF8.GetString(data);
 
+                string cipher = Encoding.UTF8.GetString(data);
+
+                string json = decryptedData(cipher);
 
                 JToken Object2 = JsonConvert.DeserializeObject<JToken>(json);
 
@@ -215,6 +222,40 @@ namespace TCPClient
             }
         }
 
+        // *************** Encrypt and Decrypt data  ***********************//
+        private string encryptedData(string message)
+        {
+            byte[] inputBytes = Encoding.UTF8.GetBytes(message);
+
+            // Encrypt the data
+            byte[] encryptedBytes;
+            using (ICryptoTransform encryptor = aes.CreateEncryptor())
+            {
+                encryptedBytes = encryptor.TransformFinalBlock(inputBytes, 0, inputBytes.Length);
+            }
+
+            string res = Convert.ToBase64String(encryptedBytes);
+            return res;
+        }
+
+        private string decryptedData(string cipher)
+        {
+            byte[] encryptedBytes = Convert.FromBase64String(cipher);
+            // Decrypt the data
+            byte[] decryptedBytes;
+            using (ICryptoTransform decryptor = aes.CreateDecryptor())
+            {
+                decryptedBytes = decryptor.TransformFinalBlock(encryptedBytes, 0, encryptedBytes.Length);
+            }
+
+            // Convert decrypted bytes to string
+            string res = Encoding.UTF8.GetString(decryptedBytes);
+
+            return res;
+        }
+
+
+
         // *************** Logic function ***********************//
         public TCP_Clients(string ipAddress, int port, int buffLen = NUM_OF_BYTES)
         {
@@ -225,6 +266,10 @@ namespace TCPClient
             this.userAccount = null;
             this.session = null;
             this.id = string.Empty;
+
+            aes = new AesCryptoServiceProvider();
+            aes.Key = key;
+            aes.IV = iv;
         }
 
         public bool run()
