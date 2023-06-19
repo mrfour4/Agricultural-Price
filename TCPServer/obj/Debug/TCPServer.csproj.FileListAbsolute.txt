@@ -1,0 +1,176 @@
+F:\Bin\Desktop\socket 2021\Socket_Project\TCPServer\bin\Debug\TCPServer.exe.config
+F:\Bin\Desktop\socket 2021\Socket_Project\TCPServer\bin\Debug\TCPServer.exe
+F:\Bin\Desktop\socket 2021\Socket_Project\TCPServer\bin\Debug\TCPServer.pdb
+F:\Bin\Desktop\socket 2021\Socket_Project\TCPServer\obj\Debug\TCPServer.csprojAssemblyReference.cache
+F:\Bin\Desktop\socket 2021\Socket_Project\TCPServer\obj\Debug\TCPServer.Properties.Resources.resources
+F:\Bin\Desktop\socket 2021\Socket_Project\TCPServer\obj\Debug\TCPServer.csproj.GenerateResource.cache
+F:\Bin\Desktop\socket 2021\Socket_Project\TCPServer\obj\Debug\TCPServer.csproj.CoreCompileInputs.cache
+F:\Bin\Desktop\socket 2021\Socket_Project\TCPServer\obj\Debug\TCPServer.exe
+F:\Bin\Desktop\socket 2021\Socket_Project\TCPServer\obj\Debug\TCPServer.pdb
+F:\Bin\Desktop\socket 2021\Socket_Project\TCPServer\obj\Debug\TCPServer.TCPServer.resources
+F:\Bin\Desktop\socket 2021\Socket_Project\TCPServer\bin\Debug\Newtonsoft.Json.dll
+F:\Bin\Desktop\socket 2021\Socket_Project\TCPServer\bin\Debug\Newtonsoft.Json.xml
+F:\Bin\Desktop\socket 2021\Socket_Project\TCPServer\obj\Debug\TCPServer.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Test\app chat\SocketProgramming-main\Socket_Project\Source\TCPServer\bin\Debug\TCPServer.exe.config
+C:\Users\ADMIN\Desktop\Test\app chat\SocketProgramming-main\Socket_Project\Source\TCPServer\bin\Debug\TCPServer.exe
+C:\Users\ADMIN\Desktop\Test\app chat\SocketProgramming-main\Socket_Project\Source\TCPServer\bin\Debug\TCPServer.pdb
+C:\Users\ADMIN\Desktop\Test\app chat\SocketProgramming-main\Socket_Project\Source\TCPServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\Desktop\Test\app chat\SocketProgramming-main\Socket_Project\Source\TCPServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\Desktop\Test\app chat\SocketProgramming-main\Socket_Project\Source\TCPServer\obj\Debug\TCPServer.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Test\app chat\SocketProgramming-main\Socket_Project\Source\TCPServer\obj\Debug\TCPServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Desktop\Test\app chat\SocketProgramming-main\Socket_Project\Source\TCPServer\obj\Debug\TCPServer.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\Test\app chat\SocketProgramming-main\Socket_Project\Source\TCPServer\obj\Debug\TCPServer.TCPServer.resources
+C:\Users\ADMIN\Desktop\Test\app chat\SocketProgramming-main\Socket_Project\Source\TCPServer\obj\Debug\TCPServer.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Test\app chat\SocketProgramming-main\Socket_Project\Source\TCPServer\obj\Debug\TCPServer.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Test\app chat\SocketProgramming-main\Socket_Project\Source\TCPServer\obj\Debug\TCPServer.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Test\app chat\SocketProgramming-main\Socket_Project\Source\TCPServer\obj\Debug\TCPServer.exe
+C:\Users\ADMIN\Desktop\Test\app chat\SocketProgramming-main\Socket_Project\Source\TCPServer\obj\Debug\TCPServer.pdb
+C:\Users\ADMIN\Desktop\delete\Source\TCPServer\bin\Debug\TCPServer.exe.config
+C:\Users\ADMIN\Desktop\delete\Source\TCPServer\bin\Debug\TCPServer.exe
+C:\Users\ADMIN\Desktop\delete\Source\TCPServer\bin\Debug\TCPServer.pdb
+C:\Users\ADMIN\Desktop\delete\Source\TCPServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\Desktop\delete\Source\TCPServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\Desktop\delete\Source\TCPServer\obj\Debug\TCPServer.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\delete\Source\TCPServer\obj\Debug\TCPServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Desktop\delete\Source\TCPServer\obj\Debug\TCPServer.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\delete\Source\TCPServer\obj\Debug\TCPServer.TCPServer.resources
+C:\Users\ADMIN\Desktop\delete\Source\TCPServer\obj\Debug\TCPServer.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\delete\Source\TCPServer\obj\Debug\TCPServer.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\delete\Source\TCPServer\obj\Debug\TCPServer.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\delete\Source\TCPServer\obj\Debug\TCPServer.exe
+C:\Users\ADMIN\Desktop\delete\Source\TCPServer\obj\Debug\TCPServer.pdb
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\TCPServer.exe.config
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\TCPServer.exe
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\TCPServer.pdb
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\obj\Debug\TCPServer.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\obj\Debug\TCPServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\obj\Debug\TCPServer.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\obj\Debug\TCPServer.TCPServer.resources
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\obj\Debug\TCPServer.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\obj\Debug\TCPServer.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\obj\Debug\TCPServer.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\obj\Debug\TCPServer.exe
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\obj\Debug\TCPServer.pdb
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\JWT.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.Buffers.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.Memory.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.Text.Json.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.ValueTuple.dll
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\JWT.pdb
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\JWT.xml
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.Buffers.xml
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.Memory.xml
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.Text.Json.xml
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ADMIN\Desktop\delete\Test\Source\TCPServer\bin\Debug\System.ValueTuple.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\TCPServer.exe.config
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\TCPServer.exe
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\TCPServer.pdb
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\JWT.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.Buffers.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.Memory.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.Text.Json.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.ValueTuple.dll
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\JWT.pdb
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\JWT.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.Buffers.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.Memory.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.Text.Json.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\bin\Debug\System.ValueTuple.xml
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\obj\Debug\TCPServer.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\obj\Debug\TCPServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\obj\Debug\TCPServer.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\obj\Debug\TCPServer.TCPServer.resources
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\obj\Debug\TCPServer.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\obj\Debug\TCPServer.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\obj\Debug\TCPServer.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\obj\Debug\TCPServer.exe
+C:\Users\ADMIN\Desktop\New folder\Source\TCPServer\obj\Debug\TCPServer.pdb
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\TCPServer.exe.config
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\TCPServer.exe
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\TCPServer.pdb
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\JWT.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.Buffers.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.Memory.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.Text.Json.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.ValueTuple.dll
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\JWT.pdb
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\JWT.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.Buffers.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.Memory.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.Text.Json.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\bin\Debug\System.ValueTuple.xml
+C:\Users\ADMIN\Desktop\Copy\TCPServer\obj\Debug\TCPServer.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Copy\TCPServer\obj\Debug\TCPServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Desktop\Copy\TCPServer\obj\Debug\TCPServer.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\Copy\TCPServer\obj\Debug\TCPServer.TCPServer.resources
+C:\Users\ADMIN\Desktop\Copy\TCPServer\obj\Debug\TCPServer.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Copy\TCPServer\obj\Debug\TCPServer.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Copy\TCPServer\obj\Debug\TCPServer.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Copy\TCPServer\obj\Debug\TCPServer.exe
+C:\Users\ADMIN\Desktop\Copy\TCPServer\obj\Debug\TCPServer.pdb
