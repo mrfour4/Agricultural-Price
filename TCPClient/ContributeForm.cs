@@ -7,7 +7,7 @@ namespace TCPClient
 {
     public partial class ContributeForm : Form
     {
-        string apiUrl = "https://agriculturalprice-production-8daf.up.railway.app/api/v1/agricultural-price/update";
+        string apiUrl = "https://agricultural-price-api.onrender.com/api/v1/agricultural-price/update";
 
         public ContributeForm()
         {

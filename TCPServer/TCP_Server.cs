@@ -21,7 +21,7 @@ namespace TCP_Server
     {
         //************ Constant *****************//
 
-        private const string API_URL = "https://agriculturalprice-production-8daf.up.railway.app/api/v1/agricultural-price/";
+        private const string API_URL = "https://agricultural-price-api.onrender.com/api/v1/agricultural-price/";
 
         //************ Get key from Cloud Key Management ***********//
 
